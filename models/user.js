@@ -21,7 +21,7 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'User',
-    tableNameL: 'todo_users',
+    tableName: 'todo_users',
     timestamps: false
   });
   return User;
